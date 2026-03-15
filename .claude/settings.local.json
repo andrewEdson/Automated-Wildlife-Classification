@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/Users/andrewedson/Desktop/CPTS 434/Automated Wildlife Classification\" && python3 -c \"\nimport json\nwith open\\('01_empty_vs_animal_classifier.ipynb'\\) as f:\n    nb = json.load\\(f\\)\nprint\\('CELL 8:'\\)\nprint\\(''.join\\(nb['cells'][8]['source']\\)\\)\nprint\\(\\)\nprint\\('CELL 14:'\\)\nprint\\(''.join\\(nb['cells'][14]['source']\\)\\)\n\")"
+    ]
+  }
+}
