@@ -1,0 +1,27 @@
+# Install PyTorch for Apple Silicon (MPS) from https://pytorch.org/get-started/locally/
+# Select: Stable | Mac | Pip | Python | Default
+# Example (check pytorch.org for the latest command):
+#   pip install torch torchvision
+#
+# For CUDA (Linux/Windows with NVIDIA GPU), select the appropriate CUDA version.
+
+torch
+torchvision
+
+# Scientific computing
+numpy
+matplotlib
+seaborn
+
+# Machine learning utilities
+scikit-learn
+
+# Image processing
+Pillow
+
+# Progress bars
+tqdm
+
+# Jupyter notebook
+jupyter
+ipywidgets

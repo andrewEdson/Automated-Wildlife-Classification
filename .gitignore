@@ -1,1 +1,4 @@
 .qodo/ 
+data/ 
+.claude/
+.venv/
