@@ -25,3 +25,11 @@ tqdm
 # Jupyter notebook
 jupyter
 ipywidgets
+
+# MegaDetector (Phase 1: animal detector for crop pipeline)
+# NOTE: PytorchWildlife pulls in yolov5 which uses pkg_resources;
+#       pin setuptools<81 to keep that import alive.
+PytorchWildlife
+soundfile
+librosa
+setuptools<81

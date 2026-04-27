@@ -1,4 +1,6 @@
-.qodo/ 
-data/ 
+.qodo/
+data/
 .claude/
 .venv/
+.DS_Store
+checkpoints/
